@@ -1,0 +1,1 @@
+web: gunicorn waywebapi.wsgi --log-file -
