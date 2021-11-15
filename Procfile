@@ -1,1 +1,1 @@
-web: gunicorn waywebapi.wsgi --log-file -
+web: gunicorn ApiMobileWayWeb.wsgi --log-file -
