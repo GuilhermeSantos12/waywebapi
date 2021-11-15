@@ -1,1 +1,1 @@
-web: gunicorn ApiMobileWayWeb.wsgi --log-file -
+web: gunicorn listacategoria.wsgi --log-file -
