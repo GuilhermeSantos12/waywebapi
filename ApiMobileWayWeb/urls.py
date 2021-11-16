@@ -22,7 +22,7 @@ from rest_framework.routers import DefaultRouter
 from lista_produtos.api.viewsets import ListaProdutosViewSet
 
 
-router = routers.SimpleRouter()
+router = routers.DefaultRouter()
 router.register(r'listacategoria', ListaCategoriaViewSet)
 router.register(r'listaproduto', ListaProdutosViewSet)
 
