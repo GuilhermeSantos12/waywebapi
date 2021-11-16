@@ -1,1 +1,0 @@
-web: gunicorn listacategoria.wsgi --log-file -
